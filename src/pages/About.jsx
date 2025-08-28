@@ -127,9 +127,9 @@ const About = () => {
         {/*authors */}
         <section>
           <h2 className="text-lg md:text-3xl font-bold mb-6 text-center">List of Authors</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid lg:grid-cols-4 gap-2 sm:grid-col-10  mb-10 ">
             {items.map(({ id, image, authName, links }) => (
-              <Link to={`/author/${id}`} key={id}>
+              <Link to={`/author/${id}`} key={id} onClick={() => window.scrollTo(0, 0)}>
                 <div className="bg-gray-100 rounded-lg p-6 text-center hover:bg-yellow-50">
                   <img src={image} alt={authName} className="mx-auto rounded-full h-32 w-32 object-cover" />
                   <h3 className="mt-2 font-semibold text-center">{authName}</h3>

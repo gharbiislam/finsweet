@@ -1,44 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 :root {
   --font-inter: "Inter", sans-serif; 
   --color-primary:#232536;
   --color-secondry:#FFD050;
   --color-secondry2:#EDC14A;
   --color-purple:#592EA9;
-
-
 }
-h1{
-    color:var(--color-primary) ;
-    font-size:xx-large;
-    font-weight: bolder;
+
+h1 {
+  color: var(--color-primary);
+  font-size: xx-large;
+  font-weight: bolder;
 }
-h2{
+
+h2 {
+  color: var(--color-primary);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
     color: var(--color-primary);
-    font-size: x-large;
-    font-weight: bold;
+
 }
-h3{
-    font-size: large;
-    font-weight: bold;
-    text-align: justify;
+
+#bg-primary {
+  background-color: var(--color-primary);
 }
-#bg-primary{
-    background-color: var(--color-primary);
-}
+
 input, select, textarea {
   border: 1px solid #969696;
   padding: 20px;
   outline: none; 
 }
-input::placeholder,
-textarea::placeholder {
-  color: #232536;
 
-}
 input:focus, select:focus, textarea:focus {
   border: 1px solid #FFD050;
 }

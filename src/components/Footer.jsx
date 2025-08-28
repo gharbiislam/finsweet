@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/Logo.png'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -14,11 +15,12 @@ const Footer = () => {
           </div>
 
           <ul className="flex flex-col md:flex-row text-xs md:text-base items-center gap-4 md:gap-6">
-            <li className="hover:font-bold"><a href="#">Home</a></li>
-            <li className="hover:font-bold"><a href="#">Blog</a></li>
-            <li className="hover:font-bold"><a href="#">About us</a></li>
-            <li className="hover:font-bold"><a href="#">Contact us</a></li>
-            <li className="hover:font-bold"><a href="#">Privacy Policy</a></li>
+            <li className=' hover:font-bold'><Link to={`/home` } onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
+            <li className=' hover:font-bold'><Link to={`/posts`} onClick={() => window.scrollTo(0, 0)}>Blog</Link></li>
+            <li className=' hover:font-bold'><Link to={`/about`} onClick={() => window.scrollTo(0, 0)}>About Us</Link></li>
+            <li className=' hover:font-bold'><Link to={`/contact`} onClick={() => window.scrollTo(0, 0)}>Contact us</Link></li>
+            <li className=' hover:font-bold'><Link to={`/privacy`} onClick={() => window.scrollTo(0, 0)}>Privacy</Link></li>
+
           </ul>
         </section>
 
@@ -52,7 +54,7 @@ const Footer = () => {
           </div>
         </section>
 
-       
+
 
       </div>
     </footer>

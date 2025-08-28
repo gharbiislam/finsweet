@@ -8,9 +8,9 @@ import Navbar from "../components/Navbar";
 import Join from "../components/Join";
 
 const BlogDetail = () => {
-  const { id } = useParams(); // from URL: /blog/:id
+  const { id } = useParams(); 
   const blog = Blogs.find((b) => b.id === parseInt(id));
-  const others = Blogs.slice(1, 4); // next 4 blogs
+  const others = Blogs.slice(1, 4); 
 
   if (!blog) return <p>Blog not found</p>;
   
@@ -24,8 +24,10 @@ const BlogDetail = () => {
       {/*blog header */}
       <section className="max-w-2xl mx-auto py-6  space-y-4">
       <div className="flex  items-center space-x-3">
+        
       <img src={blogAuthor.image} alt="" className="rounded-full w-20 h-20 object-cover "/>
       <div>
+        
         <p className="font-bold text-[var(--color-purple)]">{ blogAuthor.authName}</p>
         <p className="text-gray-500">Posted on {blog.date}</p>
       </div>

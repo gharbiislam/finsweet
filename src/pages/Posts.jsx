@@ -34,7 +34,7 @@ const Posts = () => {
               {featured.sections[0].text}
             </p>
             <Link
-              to={`/blog/${featured.id}`}
+                to={`/blogdetail/${featured.id}`} onClick={() => window.scrollTo(0, 0)}
               className="bg-[var(--color-secondry)] text-gray-900 font-semibold py-2 px-4  inline-block"
             >
               Read More &gt;
@@ -57,7 +57,8 @@ const Posts = () => {
            <div className="flex flex-col gap-4 ">
             {others.map((blog) => (
               <Link
-                to={`/blog/${blog.id}`}
+                              to={`/blogdetail/${blog.id}`} onClick={() => window.scrollTo(0, 0)}
+
                 key={blog.id}
                 className="py-6 hover:bg-yellow-50 "
               >

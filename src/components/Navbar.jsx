@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../assets/Logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -16,14 +17,14 @@ const Navbar = () => {
         {/* menu */}
         <div className='flex items-center'>
           <ul className='text-white hidden md:flex  '>
-            <li className='px-6 hover:font-bold'><a href=" ">Home</a></li>
-            <li className='px-6 hover:font-bold'><a href="">Blog</a></li>
-            <li className='px-6 hover:font-bold'><a href="">About Us</a></li>
-            <li className='px-6 hover:font-bold'><a href="">Contact us</a></li>
+            <li className='px-6 hover:font-bold'><Link  to={`/home`}>Home</Link></li>
+            <li className='px-6 hover:font-bold'><Link  to={`/posts`}>Blog</Link></li>
+            <li className='px-6 hover:font-bold'><Link  to={`/about`}>About Us</Link></li>
+            <li className='px-6 hover:font-bold'><Link  to={`/contact`}>Contact us</Link></li>
           </ul>   
 
           {/* button */}
-          <button className=' bg-white px-4 py-2 md:px-8  md:py-3 font-semibold'>Subscribe</button>
+          <button className=' bg-white px-4 py-2 md:px-8  md:py-3 font-semibold'><Link  to={`/contact`}>Subscribe</Link></button>
 
           {/* humberger */}
           <div onClick={handleclick} className='md:hidden  z-10 text-white ml-2'>
