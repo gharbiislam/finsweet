@@ -11,7 +11,7 @@ const Blogs=[
     titre:"Step-by-step guide to choosing great font pairs",
     date:"12/01/2025",
     image:blog1,
-    categorie:"startup",
+    idCategorie:1,
  sections: [
     {
         subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
@@ -42,7 +42,7 @@ const Blogs=[
     titre:"Design tips for designers that cover everything you need",
     date:"24/08/2025",
     image:blog2,
-    categorie:"startup",
+    idCategorie:1,
 
  sections: [
     {
@@ -74,7 +74,7 @@ const Blogs=[
     titre:"Logo design trends to avoid in 2025",
     date:"12/07/2025",
     image:blog3,
-        categorie:"business",
+    idCategorie:2,
 
  sections: [
     {
@@ -106,7 +106,7 @@ const Blogs=[
     titre:"How to build rapport with your web design clients",
     date:"10/08/2025",
     image:blog4,
-        categorie:"Technology",
+    idCategorie:4,
 
  sections: [
     {
@@ -138,7 +138,7 @@ const Blogs=[
     titre:"8 Figma design systems you can download for free today",
     date:"12/05/2025",
     image:blog5,
-    categorie:"business",
+    idCategorie:3,
 
  sections: [
     {
@@ -170,7 +170,7 @@ const Blogs=[
     titre:"Font sizes in UI design: The complete guide to follow",
     date:"01/07/2025",
     image:blog6,
-    categorie:"economy",
+    idCategorie:3,
 
  sections: [
     {
@@ -202,7 +202,7 @@ const Blogs=[
     titre:"Font sizes in UX design: The complete guide to follow",
     date:"01/06/2025",
     image:blog7,
-        categorie:"technology",
+    idCategorie:4,
 
  sections: [
     {
