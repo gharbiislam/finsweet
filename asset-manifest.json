@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/finsweet/static/css/main.d934b9e4.css",
+    "main.js": "/finsweet/static/js/main.ca485f08.js",
+    "static/media/bl2.png": "/finsweet/static/media/bl2.f11e97ec8d8b440a8a5f.png",
+    "static/media/Blog.png": "/finsweet/static/media/Blog.311475b2d2e166f5b0fe.png",
+    "static/media/bl4.png": "/finsweet/static/media/bl4.311475b2d2e166f5b0fe.png",
+    "static/media/Team.png": "/finsweet/static/media/Team.3123a94783cefd24374c.png",
+    "static/media/heroSection.png": "/finsweet/static/media/heroSection.4de1527d3f428c529e45.png",
+    "static/media/Overview.png": "/finsweet/static/media/Overview.599a42770e012662ed37.png",
+    "static/media/bl7.png": "/finsweet/static/media/bl7.db18952ea3bf228bb235.png",
+    "static/media/bl3.png": "/finsweet/static/media/bl3.d34705fe86360511ba80.png",
+    "static/media/bl5.png": "/finsweet/static/media/bl5.6bd54460fbca20621edd.png",
+    "static/media/bl6.png": "/finsweet/static/media/bl6.2d5e450aa572196613e5.png",
+    "static/media/bl1.png": "/finsweet/static/media/bl1.bcea329ffbae0aebd237.png",
+    "static/media/dianne.png": "/finsweet/static/media/dianne.d5abec2cfe09e15ae63b.png",
+    "static/media/jacob.png": "/finsweet/static/media/jacob.a030206dbe1301eca691.png",
+    "static/media/eleanor.png": "/finsweet/static/media/eleanor.f1946dce9849b7e985b0.png",
+    "static/media/leslie.png": "/finsweet/static/media/leslie.655dc39023a21dba8a7c.png",
+    "static/media/robert.png": "/finsweet/static/media/robert.276e912edb3ffdb7404d.png",
+    "static/media/flyod.png": "/finsweet/static/media/flyod.853868fe790e133e82fa.png",
+    "static/media/jenny.png": "/finsweet/static/media/jenny.6d88344552ba0e72a7ea.png",
+    "static/media/guy.png": "/finsweet/static/media/guy.d8122c201ac07cd3ae60.png",
+    "index.html": "/finsweet/index.html",
+    "main.d934b9e4.css.map": "/finsweet/static/css/main.d934b9e4.css.map",
+    "main.ca485f08.js.map": "/finsweet/static/js/main.ca485f08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d934b9e4.css",
+    "static/js/main.ca485f08.js"
+  ]
+}
