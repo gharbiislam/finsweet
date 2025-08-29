@@ -16,6 +16,7 @@ A  responsive blog website built with **React.js**, designed to deliver an elega
 - **Icons:** React Icons 
 
 ## 📂 Project Structure  
+```
 finsweet/
 │── src/
 │ ├── assets/ # Images, logos, icons
@@ -27,5 +28,6 @@ finsweet/
 │── public/ # Static files
 │── package.json
 │── README.md
+```
 ## 🌐 Live demo
 👉 [View the website here](https://gharbiislam.github.io/finsweet/)  
