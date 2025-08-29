@@ -1,6 +1,6 @@
 # Finsweet – Blog Website  
 
-A  and responsive blog platform built with **React.js**, designed to deliver an elegant reading experience with clean UI, smooth navigation, and reusable components.  
+A  responsive blog website built with **React.js**, designed to deliver an elegant reading experience with clean UI, smooth navigation, and reusable components.  
 
 ## 🚀 Features  
 - 📱 Responsive Design – Works seamlessly on desktop, tablet, and mobile.  
