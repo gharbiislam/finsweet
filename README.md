@@ -20,12 +20,12 @@ finsweet/
 │── src/
 │ ├── assets/ # Images, logos, icons
 │ ├── components/ # Reusable components (Navbar, Footer, Blog, etc..)
-│ ├── pages/ # Pages (Home, BlogDetail, AuthDetail, Category ,ect..)
+│ ├── pages/ # Pages (Home, BlogDetail, AuthDetail, Category, etc..)
 │ ├── App.js # Main app component
 │ ├── index.js # Entry point
+│
 │── public/ # Static files
 │── package.json
 │── README.md
-
 ## 🌐 Live demo
 👉 [View the website here](https://gharbiislam.github.io/finsweet/)  
